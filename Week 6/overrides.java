@@ -15,7 +15,11 @@ class circle extends shape{
 }
 public class overrides {
     public static void main(String[] args) {
-        shape c=new circle();
-        System.out.println("Area= "+c.calculatearea(5));
+        circle c=new circle();
+        shape s=new shape();
+        shape r=new shape();
+        ystem.out.println("Area of circle = "+c.calculatearea(5));
+        System.out.println("Area of square = "+c.calculatearea(5));
+        System.out.println("Area of rectangle = "+c.calculatearea(5,6));
     }
 }
