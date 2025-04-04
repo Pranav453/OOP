@@ -19,7 +19,7 @@ public class overrides {
         shape s=new shape();
         shape r=new shape();
         System.out.println("Area of circle = "+c.calculatearea(5));
-        System.out.println("Area of square = "+c.calculatearea(5));
-        System.out.println("Area of rectangle = "+c.calculatearea(5,6));
+        System.out.println("Area of square = "+s.calculatearea(5));
+        System.out.println("Area of rectangle = "+r.calculatearea(5,6));
     }
 }
