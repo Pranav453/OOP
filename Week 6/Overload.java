@@ -12,6 +12,8 @@
 public class Overload {
     public static void main(String[] args) {
         Calculator a=new Calculator(5,6);
-        System.err.println("Sum is "+add(5,6));
+        System.err.println("Sum is "+a.add(5,6));
+        System.err.println("Sum is "+a.add(5.6,6));
+        System.err.println("Sum is "+a.add(5,6,7));
     }
 }
